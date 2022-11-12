@@ -18,7 +18,7 @@ select_hitika = function(){
   while(TRUE){
     base_hitika()
     i = as.numeric(readline("Enter your choice: "))
-    switch(i,source("hitika/buffen.R"), source("hitika/midsq.R"), source("jaswinder/cong.R"),source("hitika/itfm.R"))
+    switch(i,source("hitika/hitbuffen.R"), source("hitika/midsq.R"), source("jaswinder/cong.R"),source("hitika/itfm.R"))
     if (i == 0) {
       break
     }
