@@ -6,7 +6,7 @@ base_hitika = function(){
   cat("\nEnter","\t","Calculations","\n")
   cat("-----------------------------------\n")
   del = c(1:5,0)
-  base1_names = c("Buffen Needle Problem","Mid-Square Method","Congruential Generator","Shift generator","ITFM","Previous")
+  base1_names = c("Buffen Needle Problem","Mid-Square Method","Congruential Generator","Shift Generator","ITFM","Previous")
   for (i in 1:6) {
     cat(del[i],"\t",base1_names[i],"\n")
   }

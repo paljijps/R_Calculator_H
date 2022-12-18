@@ -52,7 +52,7 @@ shift_gen_jps = function(){
   }
   cat("\n\n\n ****** Result ******\n ------------------------ \n Required random numbers using Shift generator are: \n", rand)
   maxrand = bin_to_dec(rep(1,n))
-  cat("\n\n Required random variates from U(0,1) are: \n", rand/maxrand)
+  cat("\n\n Corresponding random variates from U(0,1) are: \n", rand/maxrand)
   cat("\n\n Corresponding binary random vectors were: \n")
   show(binvecs)
 }
