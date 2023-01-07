@@ -1,8 +1,8 @@
 rm(list = ls())
 source("mybase.R")
 select()
-#Jaswinderpal
-#Jasmeen
+#Jaswinderpal Singh
+#Jasmeen Sharma
 #Tarun
 #Hitika 
-#Harmeet
+#Harmeet Kaur
